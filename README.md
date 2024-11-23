@@ -1,16 +1,57 @@
-# Astro Starter Kit: Basics
+# Astro + Tailwind
 
-```sh
-npm create astro@latest -- --template basics
+Este proyecto usa [Astro](https://docs.astro.build/en/getting-started/) y [Tailwind](https://tailwindcss.com/docs/installation).
+
+## 🐛 ¿Cómo empezar a trabajar?
+
+1. Clona el proyecto en la ruta de tu elección
+
+```bash
+git clone https://github.com/eduqr/bibliopolis-nodejs.git
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+2. Entra a la carpeta
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+```bash
+cd bibliopolis-nodejs/
+```
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+3. Abre el proyecto en Visual Studio Code
+
+```bash
+code .
+```
+
+4. Abre una terminal en vscode
+
+- Teclados en español: <kbd>Ctrl</kbd> + <kbd>ñ</kbd>
+- Teclados en inglés: <kbd>Ctrl</kbd> + <kbd>`</kbd>
+
+5. Instala las dependencias del proyecto
+
+```bash
+npm install
+```
+
+6. Inicia el servidor de desarrollo
+
+```bash
+npm run dev
+```
+
+## 🪣 Extensiones importantes
+
+Dentro de Visual Studio Code ve al apartado de Extensiones e instala las siguientes:
+
+- [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss): Sirve para ver los estilos CSS que aplica Tailwind.
+- [Astro](https://marketplace.visualstudio.com/items?itemName=astro-build.astro-vscode): Te da resaltado de sintaxis para los archivos .astro.
+- [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens): Resaltado de erroes (opcional).
+- [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode): Formateador de código (lo ordena, opcional).
+- [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme): Iconos de archivos (opcional).
+
+## 🖍️ Colores
+
+Para agregar los colores personalizados que necesites ve al archivo ´tailwind.config.mjs´ y agrégalo debajo del ginda (es de ejemplo), dale un nombre y su código de color.
 
 ## 🚀 Project Structure
 
